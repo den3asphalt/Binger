@@ -35,5 +35,5 @@ We directly implement RPT for mono-language code retrieval, and BigPT for cross-
 
 ## Performance comparison of different augmentation methods
 
-![performance](/doc/performance.png "performance")
+![performance](/CTAug/doc/performance.png "performance")
 
