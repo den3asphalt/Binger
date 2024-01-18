@@ -1,7 +1,7 @@
 # CTAug - Data augmentation for code translation
 Code translation is needed in many use cases, both in academia and industry. This application rewrites a piece of code in another user-preferred language for further usage. Manual code translation is resource-consuming. A supervised code translation model can automate this process. However, it faces the problem of a shortage of training data. We experiment with different existing data augmentation methods on supervised code translation, and propose our own augmentation data generating rules, and a retrieval-based approach, which is shown in the following figure:
 
-![workflow](/doc/complete_workflow.png "workflow")
+![workflow](/Binger/CTAug/doc/complete_workflow.png "workflow")
 
 ## Datasets
 
