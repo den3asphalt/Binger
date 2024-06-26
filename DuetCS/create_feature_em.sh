@@ -1,4 +1,6 @@
-source ~/.bash_profile
+export CLASSPATH=".:antlr-4.13.1-complete.jar:$CLASSPATH"
+alias grun='java -Xmx500M -cp "antlr-4.13.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+
 for f in ` ls $1 `
 do
         f=$1"/"$f
@@ -13,8 +15,11 @@ do
                 grun CPP14 translationunit -tree $file > testc14.txt
                 s="CPP14"
         fi
-        python3 data_prepare.py $f $s
-		python3 feature.py
+        echo $f 
+        echo $s
+        #python3 data_prepare.py $1
+	python3 feature.py $f $s
+    
 done
-python3 siamese.py
-python3 training.py
+
+
