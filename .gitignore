@@ -1,3 +1,4 @@
 DuetCS/antlr-4.13.1-complete.jar
 DuetCS/testjs.txt
 DuetCS/data/target/*
+DuetCS/ParserAndLexer/*

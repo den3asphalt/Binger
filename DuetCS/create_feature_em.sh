@@ -1,5 +1,5 @@
-export CLASSPATH=".:antlr-4.13.1-complete.jar:$CLASSPATH"
-alias grun='java -Xmx500M -cp "antlr-4.13.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+export CLASSPATH=".:./parserAndLexer:$CLASSPATH"
+alias grun='java -Xmx500M -cp "./parserAndLexer/antlr-4.13.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 
 for f in ` ls $1 `
 do
